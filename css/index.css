@@ -22,4 +22,6 @@
   color: 	#FFFFDF;
 }
 
-
+.dropdown-item:hover {
+  background-color: 	#FFFFDF;
+}
