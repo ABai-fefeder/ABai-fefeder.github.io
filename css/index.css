@@ -8,15 +8,15 @@
   background-position: center center;
 }
 
-.img-item {
-  height: 350px;
-  border: 1px solid;
+
+.box-shadow {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
 }
 
-
-h2:hover {
-  font-size: 42px;
-  transition: all 0.3s;
+.box-shadow:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .30);
+  background-color: #FFFFDF;
+  transition: box-shadow .3s;
 }
 
 .fab:hover {
