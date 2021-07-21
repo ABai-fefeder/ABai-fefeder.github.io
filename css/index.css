@@ -1,7 +1,11 @@
 
+.carousel-item {
+  height: 550px;
+}
+
 .bg-cover {
-  margin: 0 auto;
-  height: 600px;
+  background-size: cover;
+  background-position: center center;
 }
 
 .box-shadow {
