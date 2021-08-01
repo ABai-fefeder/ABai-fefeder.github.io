@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-hang-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABai Blog</title>
+  <link rel="stylesheet" href="/css/Blog.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/>
+  <link href="/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button type="button" class="btn" id="icon" style="color: var(--text-color);" title="切換背景"><i class="fas fa-adjust"></i></button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars" style="color:  var(--text-color);"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: var(--text-color);">關於我</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link _self" href="/Blog-page/Blog-home.html" style="color: var(--text-color);">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav aria-label="breadcrumb"></nav>
+    <ol class="breadcrumb bg-transparent">
+      <li class="breadcrumb-item"><a href="/index.html">首頁</a></li>
+      <li class="breadcrumb-item"><a href="/Blog-page/Blog-home.html">Blog</a></li>
+      <li class="breadcrumb-item active" aria-current="page">經典MMORPG魔獸世界World of Warcraft</li>
+    </ol>
+
+  <!-- 內容 -->
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto d-block mb-5">
+        <img src="/img/WoW_Box_Art1.jpg" class="img-fluid rounded" style="height: 500px;" alt="">
+      </div>
+      <div class="pb-5">
+        <h3 class="text-center mb-3">經典MMORPG魔獸世界World of Warcraft</h3>
+        <div class="px-5">
+          <p>這款由著名的遊戲公司暴雪娛樂（Blizzard Entertainment）所製作的一款大型多人在線角色扮演遊戲，於2004年年中在北美公開測試，同年11月23日開始在北美與大洋洲發行，中國大陸伺服器於2005年6月正式收費運營，台灣、香港和澳門伺服器於月正式收費營運。截至2008年底，全球的魔獸世界付費用戶已超過1150萬人，成功打破了金氏世界紀錄，而魔獸世界在當時全世界網路遊戲市場佔有率達62%，也就是說每10個遊戲玩家就有6個人有玩過這款遊戲，在當時是一款風迷全球的遊戲。</p>
+
+          <p>這款遊戲相較之前的MMORPG有很多革新性的改變，如眾多的職業和種族，大量的職業技能與不同的種族天賦的組合，使得遊戲重複可玩性非常高；再加上完善的組隊、團隊功能強調玩家的團隊合作和組織協調能力，相對於個人英雄主義，更鼓勵玩家互助合作的精神。在技能與物品存在冷卻時間改變了之前的遊戲中誰血瓶多誰就強的簡單模式，使得玩家在遊戲中更講求策略和方法而不是比誰點滑鼠更快。</p>
+
+          <p>而在這款遊戲中PVE方面是非常完善的，有各式各樣的組隊副本(Instance dungeon)、團隊副本，當玩家成功擊敗了各個副本的BOSS就會得到豐厚的獎勵，並經由直骰分配寶物與以往的網路遊戲不同，以往的遊戲是要一直重複的打怪才會得到獎勵，而且還必須顧慮會被其他玩家搶怪的問題，進而造成糾紛。</p>
+        </div>
+      </div>
+    </div>
+      <h3 class="text-center mb-3">遊玩照片</h3>
+    </div>
+  </div>
+  
+
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#photo1" role="tab" aria-controls="home" aria-selected="true">照片1</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#photo2" role="tab" aria-controls="profile" aria-selected="false">照片2</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#photo3" role="tab" aria-controls="contact" aria-selected="false">照片3</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#photo4" role="tab" aria-controls="contact" aria-selected="false">照片4</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="photo1" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="pt-5 d-flex justify-content-center">
+              <a href="/img/WoWScrnShot_060208_023140.jpg" data-lightbox="image-1">
+                <img class="img-fluid rounded" src="/img/WoWScrnShot_060208_023140.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="px-3 pt-5">這張圖片是某天很無聊臨時起意，約三五好友要去敵對方村落找樂子，出發前所拍的照片，圖中好友都是競技場的戰友，還記得當時那一季競技場是最難打打的一季，不過經過大家努力還是如願打到了整套S3競技場裝備全套，也是我覺得玩遊戲以來最有成就感的一次。</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="photo2" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="pt-5 d-flex justify-content-center">
+              <a href="/img/WoWScrnShot_060208_031612.jpg" data-lightbox="image-2">
+                <img class="img-fluid rounded" src="/img/WoWScrnShot_060208_031612.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="px-3 pt-5">當時在打的時侯真的很緊張，非常擔心會有其他玩家聽聞來搔擾我們。</p>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="tab-pane fade" id="photo3" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="py-5 d-flex justify-content-center">
+            <a href="/img/WoWScrnShot_060208_031649.jpg" data-lightbox="image-3">
+              <img class="img-fluid rounded" src="/img/WoWScrnShot_060208_031649.jpg" alt="" />
+            </a>
+          </div>
+      </div>
+      <div class="tab-pane fade" id="photo4" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="row">
+          <div class="col-md-6"><div class="pt-5 d-flex justify-content-center">
+            <a href="/img/WoWScrnShot_060208_031734.jpg" data-lightbox="image-4">
+              <img class="img-fluid rounded" src="/img/WoWScrnShot_060208_031734.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+          <div class="col-md-6"><p class="px-3 pt-5">以上圖片，是和競技場的戰友只有四人就擊殺了敵方主城首領，不過當時運氣也算很好，並沒有任何敵方玩家擾亂，我們四人足足花了半小時才順利擊殺首領，一般來說，擊殺各主城首領需要四十名玩家，在當時可說是非常不可能的任務。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <!-- 頁尾 -->
+  <div class="container-fluid mt-5" style="background-color: var(--secondary-color);">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="p-5">
+          <h1>你可以從這追縱我的腳步</h1><br>
+          <h1>如果你很閒的話</h1>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-5 d-flex justify-content-center">
+          <ul class="list-inline p-4">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/brent.bai" target="_blank" class="text-secondary" title="facebook"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/BrentBai" target="_blank" class="text-secondary" title="youtube"><i class="fab fa-youtube-square"></i></a></li>
+            <li class="list-inline-item">
+              <a href="https://www.twitch.tv/pigpai01/about" target="_blank" class="text-secondary" title="twitch"><i class="fab fa-twitch"></i></a></li>
+            <li class="list-inline-item">
+              <a href="https://www.flickr.com/photos/141136946@N02/" target="_blank" class="text-secondary" title="flickr"><i class="fab fa-flickr"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="back">
+    <a href="#" class="" style="color: var(--text-color);"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
+  </div>
+
+  <footer>
+    <p class="text-center" style="font-size: 15px;">Copyright © 2021 - ABai · All rights reserved</p>
+  </footer>
+  
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="/js/blog.js"></script>
+
+</body>
+</html>

@@ -1,11 +1,27 @@
 
-.carousel-item {
-  height: 550px;
-}
-
 .bg-cover {
+  height: 400px;
   background-size: cover;
   background-position: center center;
+  border-radius: 10px;
+  border: 2px solid #ffff;
+}
+
+.fab {
+  padding: 5px;
+  color: var(--text-color);
+}
+
+.fab:hover {
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+}
+
+.back {
+  position:fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 70%;
 }
 
 .box-shadow {
@@ -14,14 +30,35 @@
 
 .box-shadow:hover {
   box-shadow: 0 3px 10px rgba(0, 0, 0, .30);
-  background-color: #FFFFDF;
   transition: box-shadow .3s;
 }
 
-.fab:hover {
-  color: 	#FFFFDF;
+/* 深色背景 */
+
+#icon{
+  cursor: pointer;
 }
 
-.dropdown-item:hover {
-  background-color: 	#FFFFDF;
+:root {
+  --primary-color: #fff;
+  --secondary-color: #FAF4FF;
+  --text-color: black;
+}
+
+.dark-mode {
+  --primary-color: #1f2937;
+  --secondary-color: #111827;
+  --text-color: #ffff;
+}
+
+body {
+  background-color: var(--primary-color) !important;
+  color: var(--text-color) !important;
+}
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.card-body {
+  background-color: var(--primary-color);
 }
