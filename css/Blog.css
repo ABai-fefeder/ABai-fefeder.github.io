@@ -59,3 +59,7 @@ body {
 .card-body {
   background-color: var(--primary-color);
 }
+
+.table {
+  color: var(--text-color) !important;
+}
