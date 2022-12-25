@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ABai Blog</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="/css/Blog.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
@@ -47,65 +47,66 @@
       </ul>
     </div>
   </nav>
-  <!-- 介紹欄 -->
-  <div class="container-fluid p-5 mb-5" style="background-color: var(--secondary-color);">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="pt-5">
-          <h1>Hey!</h1>
-          <h1>歡迎來到ABai的個人網頁!</h1>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="">
-          <div class="bg-cover" style="background-image: url(img/self.jpg);"></div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- 內容 -->
+  <nav aria-label="breadcrumb"></nav>
+  <ol class="breadcrumb bg-transparent">
+    <li class="breadcrumb-item"><a href="/index.html">首頁</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+  </ol>
+
   <div class="container mb-5">
     <div class="row">
-      <div class="col-md-4 mb-3">
+
+      <div class="col-md-6 col-lg-3 mb-3">
         <div class="card box-shadow h-100">
           <img src="/img/blog-1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">回顧兒時PC遊戲經歷</h5>
-            <p class="card-text">
-              黑暗之光<br>
-              英雄<br>
-              世紀帝國2<br>
-              天堂<br>
-            </p>
             <a href="./Blog-page1.html" target="_self" class="btn btn-outline-primary">閱讀全部</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+
+      <div class="col-md-6 col-lg-3 mb-3">
         <div class="card box-shadow">
           <img src="/img/WoW_Box_Art1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">經典MMORPG</h5>
-            <P class="card-text">魔獸世界World of Warcraft <br> 遊戲歷程</P>
+            <P class="card-text">
+              魔獸世界<br>
+              World of Warcraft<br>
+              遊戲歷程</P>
             <a href="./Blog-page2.html" target="_self" class="btn btn-outline-primary">閱讀全部</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+
+      <div class="col-md-6 col-lg-3 mb-3">
         <div class="card box-shadow h-100">
           <img src="/img/9in.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">次世代武俠網遊九陰真經</h5>
+            <h5 class="card-title">次世代武俠網遊<br>九陰真經</h5>
             <p class="card-text">
               高自由度武俠線上遊戲<br>
               開放世界玩法<br>
-              遊戲歷程<br>
+              遊戲歷程
             </p>
             <a href="./Blog-page3.html" target="_self" class="btn btn-outline-primary">閱讀全部</a>
           </div>
         </div>
       </div>
+
+      <div class="col-md-6 col-lg-3 mb-3">
+        <div class="card box-shadow h-100">
+          <img src="/img/chen.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">誠德會計師事務所</h5>
+            <p class="card-text">管理實習報告</p>
+            <a href="./Blog-page4.html" class="btn btn-outline-primary">閱讀全部</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -151,11 +152,12 @@
     <p class="text-center" style="font-size: 15px;">Copyright © 2021 - ABai · All rights reserved</p>
   </footer>
 
-  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
-  <script src="js/index.js"></script>
+  <script src="/js/blog.js"></script>
+
 </body>
 
 </html>
