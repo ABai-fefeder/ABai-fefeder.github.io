@@ -1,28 +1,28 @@
 $(document).ready(function () {
-  
+
   $(".back a").click(function (e) {
     e.preventDefault();
     $("html,body").animate({ scrollTop: 0 }, 600);
   });
 
   $('#icon').hover(function () {
-      // over
-      $(this).addClass("animate__animated animate__flash");
-    }, function () {
-      // out
-      $(this).removeClass("animate__animated animate__flash");
-    }
+    // over
+    $(this).addClass("animate__animated animate__flash");
+  }, function () {
+    // out
+    $(this).removeClass("animate__animated animate__flash");
+  }
 
 
   );
 
   $('.card').hover(function () {
-      // over
-      $(this).addClass('animate__animated animate__pulse');
-    }, function () {
-      // out
-      $(this).removeClass('animate__animated animate__pulse');
-    }
+    // over
+    $(this).addClass('animate__animated animate__pulse');
+  }, function () {
+    // out
+    $(this).removeClass('animate__animated animate__pulse');
+  }
   );
 
   $('.nav-link').hover(function () {
@@ -39,6 +39,6 @@ $(document).ready(function () {
 });
 
 var icon = document.getElementById("icon")
-icon.onclick = function(){
+icon.onclick = function () {
   document.body.classList.toggle("dark-mode")
 }
